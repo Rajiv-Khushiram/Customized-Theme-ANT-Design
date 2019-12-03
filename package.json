@@ -4,7 +4,9 @@
   "description": "tutorial project by RCK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "reat-app-rewired test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Rajiv-Khushiram/Customized-Theme-ANT-Design/issues"
   },
-  "homepage": "https://github.com/Rajiv-Khushiram/Customized-Theme-ANT-Design#readme"
+  "homepage": "https://github.com/Rajiv-Khushiram/Customized-Theme-ANT-Design#readme",
+  "dependencies": {
+    "react-app-rewired": "^2.1.5"
+  }
 }
